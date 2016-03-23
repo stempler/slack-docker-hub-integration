@@ -1,2 +1,3 @@
 FROM ruby:onbuild
-EXPOSE 80
+CMD rackup config.ru
+EXPOSE 9292
